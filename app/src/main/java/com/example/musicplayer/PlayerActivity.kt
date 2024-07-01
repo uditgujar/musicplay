@@ -207,7 +207,7 @@ class PlayerActivity : AppCompatActivity(), CoroutineScope {
                 if (MusicPlayerManager.isPlaying()) {
                     btnPause.setImageResource(R.drawable.pauselogo)
                 } else {
-                    btnPause.setImageResource(R.drawable.stop)
+                    btnPause.setImageResource(R.drawable.stop)          
                 }
             }
         }
