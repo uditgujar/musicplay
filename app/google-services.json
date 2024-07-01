@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539377579334",
+    "project_id": "musicplayer-d48ce",
+    "storage_bucket": "musicplayer-d48ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539377579334:android:82eca2eb97573e0e172147",
+        "android_client_info": {
+          "package_name": "com.example.musicplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkCZTRNnHfZ8eYEvk2A4WhLIcvesDCxDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

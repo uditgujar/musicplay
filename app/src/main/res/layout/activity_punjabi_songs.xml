@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PunjabiSongs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="3dp"
+        android:gravity="center_vertical"
+        android:padding="4dp"
+        android:weightSum="2">
+
+        <!--  <ImageView
+              android:id="@+id/back_bar"
+              android:layout_width="0dp"
+              android:layout_height="28dp"
+              android:layout_weight="0.3"
+
+
+              android:src="@drawable/serchlogo" />-->
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.4"
+            android:src="@drawable/spotifiy"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PunjabiSongs"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/outfit_bold"/>
+        <!--  <ImageView
+              android:layout_width="0dp"
+              android:layout_height="28dp"
+              android:layout_weight="0.3"
+              android:src="@drawable/bell2"/>-->
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvpunjabiSongList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:listitem="@layout/song_list_item_recycler_row">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@id/playlist"
+
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Cvplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardBackgroundColor="@color/gery"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/playPauseButton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/play" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/Cvplay"
+            android:fontFamily="@font/outfit_medium"
+            android:text="As It Was"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <!--  <TextView
+              android:id="@+id/Songurlname"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Harry Styles"
+              android:layout_below="@+id/song_name"
+              android:layout_toRightOf="@id/Cvplay"
+              android:layout_marginStart="20dp"
+              android:textColor="@color/geryblack"
+              android:fontFamily="@font/outfit_regular"
+              android:textSize="12dp"/>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toLeftOf="@+id/heartblack"
+            android:text="5:30" />
+
+        <ImageView
+            android:id="@+id/heartblack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/hearthd" />
+    </RelativeLayout>
+
+
+</LinearLayout>
